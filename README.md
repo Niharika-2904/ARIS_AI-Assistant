@@ -16,14 +16,15 @@ It features an attractive web interface built with Bootstrap and serves predicti
 
 ## 📂 Project Structure :-
 
-Aris/
-├── app.py
-├── templates/index.html
-├── static/style.css
-├── requirements.txt
-├── .gitignore
-├── .env
-└── README.md
+- `Aris/`
+  - `app.py` — main FastAPI application
+  - `templates/index.html` — Jinja2 HTML template
+  - `static/style.css` — CSS for styling (optional if inline)
+  - `requirements.txt` — Python dependencies
+  - `.gitignore` — files/folders to ignore in git
+  - `.env` — environment variables (e.g., GEMINI_API_KEY)
+  - `README.md` — project documentation
+
 
 
 ## 🔧 Setup & Run Locally :-
